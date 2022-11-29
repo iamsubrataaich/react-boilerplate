@@ -6,7 +6,7 @@ const CopyPlugin = require("copy-webpack-plugin");
 module.exports = {
   entry: "./src/index.tsx",
   output: {
-    path: path.resolve(__dirname, "./dist"),
+    path: path.resolve(__dirname, "./dist/js"),
     filename: "bundle.js",
   },
   module: {
@@ -31,10 +31,10 @@ module.exports = {
     new ESLintPlugin(),
     new CopyPlugin({
       patterns: [
-        { from: "./src/favicon.ico", to: "./public" },
-        { from: "./src/manifest.json", to: "./public" },
-        { from: "./src/logo192.png", to: "./public" },
-        { from: "./src/logo512.png", to: "./public" },
+        { from: "./src/favicon.ico", to: "./public/assets" },
+        { from: "./src/manifest.json", to: "./public/assets" },
+        { from: "./src/logo192.png", to: "./public/assets" },
+        { from: "./src/logo512.png", to: "./public/assets" },
       ],
     }),
     new WorkboxWebpackPlugin.InjectManifest({
