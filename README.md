@@ -1,39 +1,43 @@
-==================
-build tools
+# [GitHub - https://github.com/iamsubrataaich/react-boilerplate](https://github.com/iamsubrataaich/react-boilerplate)
+
+## Build tools
+
 ===================
-typescript
-babel
-webpack
-eslint
-prettier
-tailwind
 
-=====================
-devops
-=====================
-git
+- typescript
+- babel
+- webpack
+- eslint
+- prettier
+- tailwind
+- Browserlist
 
-
-===========
-utilities
-=========
-dayjs
-rxjs
-lodash
-redux
+## Test
 
 ==========
-UI
+
+- Jest
+
+## Utilities
+
+=========
+
+- Dayjs
+- Rxjs
+- Lodash
+
+## UI
+
 =====
-react
-popper
-mui
-select
-react hook form
 
-
-
-
-
-babel.config.json
-npm i -D @babel/cli @babel/core @babel/preset-env @babel/preset-react  core-js regenerator-runtime @babel/preset-typescript
+- React.js
+- React Router
+- Redux
+- AGgrid
+- Notistack
+- Popper.js
+- MUI
+- Select.js
+- React hook form
+- Shepherd.js
+- React virtualized

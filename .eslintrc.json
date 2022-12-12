@@ -21,11 +21,11 @@
     "parser": "@babel/eslint-parser",
     "rules": {
         "prettier/prettier": [
-            "error"
+            "never"
         ],
         "comma-dangle": [
             "error",
-            "always"
-        ],
+            "never"
+        ]
     }
 }
